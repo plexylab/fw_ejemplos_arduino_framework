@@ -110,13 +110,17 @@ Algunos módulos W5500 tienen regulador interno y aceptan alimentación de 5V, p
 
 1. Conecta el módulo W5500 al ESP32 según la tabla de pinout.
 2. Conecta un cable Ethernet desde el W5500 hacia el router o switch.
-3. Abre Arduino IDE.
+3. Abre el ejemplo `hola_plexy.ino` en Arduino IDE. Puedes hacerlo de dos formas:
+
+   * Descargando el archivo `hola_plexy.ino` desde este repositorio y abriéndolo directamente en Arduino IDE.
+   * Copiando el contenido del archivo `hola_plexy.ino` y pegándolo en un nuevo sketch de Arduino IDE.
 4. Selecciona la placa `ESP32 Dev Module`.
 5. Instala la librería `Ethernet by Arduino`.
 6. Carga el código en el ESP32.
 7. Abre el monitor serial a `115200 baudios`.
 8. Reinicia el ESP32.
 9. Espera a que aparezca una dirección IP.
+
 
 Ejemplo de salida esperada:
 
