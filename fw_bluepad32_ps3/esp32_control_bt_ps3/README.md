@@ -25,6 +25,8 @@ https://raw.githubusercontent.com/ricardoquesada/esp32-arduino-lib-builder/maste
 
 **Nota:** Si ya existen otras direcciones en este campo, sepárelas mediante comas o escríbalas cada una en una línea diferente.
 
+---
+
 ## 2. Instalar los paquetes de placas
 
 Después de agregar las URL anteriores:
@@ -38,6 +40,8 @@ Después de agregar las URL anteriores:
 
 Una vez finalizada la instalación, reinicie el Arduino IDE si es necesario.
 
+---
+
 ## 3. Seleccionar la placa
 
 Seleccione la placa correspondiente desde:
@@ -49,6 +53,8 @@ En este ejemplo se utiliza:
 **ESP32-WROOM-DA Module**
 
 ![004.webp](resources/004.webp)
+
+---
 
 ## 4. Cargar el programa de prueba
 
@@ -312,6 +318,8 @@ Si todo funciona correctamente, aparecerá el siguiente mensaje:
 Esperando control...
 ```
 
+---
+
 ## 5. Emparejar el mando Bluetooth
 
 Con el ESP32 encendido y el Monitor Serie abierto:
@@ -335,7 +343,9 @@ A partir de ese momento, el programa comenzará a mostrar continuamente el estad
 > **Importante:** El ejemplo ejecuta `BP32.forgetBluetoothKeys();`, por lo que las claves Bluetooth se eliminan cada vez que el ESP32 se reinicia. Esto obliga a realizar nuevamente el proceso de emparejamiento en cada ejecución. Una vez que el mando se haya vinculado correctamente, puede comentar o eliminar esa línea para conservar el emparejamiento entre reinicios.
 > 
 
-# Resultado esperado
+---
+
+## Resultado esperado
 
 Al mover los joysticks o presionar cualquier botón, el Monitor Serie mostrará información similar a la siguiente:
 
